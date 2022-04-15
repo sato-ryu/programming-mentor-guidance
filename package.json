@@ -2,6 +2,7 @@
   "private": true,
   "scripts": {
     "build": "slidev build",
+    "build:prod": "slidev build --base https://sato-ryu.github.io/programming-mentor-guidance/",
     "dev": "slidev --open",
     "export": "slidev export"
   },
