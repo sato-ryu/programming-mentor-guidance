@@ -12,6 +12,8 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
+        env:
+          BASE_URL: https://sato-ryu.github.io/programming-mentor-guidance/
       - name: Deploy pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
